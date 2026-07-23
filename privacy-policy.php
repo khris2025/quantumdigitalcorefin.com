@@ -68,8 +68,8 @@ body {
                     <ul class='navbar-nav ml-auto'><li class="nav-item"><a target="_self" href="index.php" class=' nav-link' > Home </a></li><li class="nav-item"><a target="_self" href="about.html" class=' nav-link' > About </a></li><li class="nav-item"><a target="_self" href="services.html" class=' nav-link' > Services </a></li><li class="nav-item"><a target="_self" href="faq.html" class=' nav-link' > FAQ </a></li><li class="nav-item"><a target="_self" href="contact.html" class=' nav-link' > Contact </a></li> </ul>
 
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link btn-outline-red mr-lg-2" href="https://users.quantumdigitalcorefin.com/login"><i class="icofont-lock"></i> Sign In</a></li>
-                                                <li class="nav-item"><a class="nav-link btn-signup mr-lg-2" href="https://users.quantumdigitalcorefin.com/register"><i class="icofont-ui-user"></i> Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link btn-outline-red mr-lg-2" href="https://accounts.quantumdigitalcorefin.com/login"><i class="icofont-lock"></i> Sign In</a></li>
+                                                <li class="nav-item"><a class="nav-link btn-signup mr-lg-2" href="https://accounts.quantumdigitalcorefin.com/register"><i class="icofont-ui-user"></i> Sign Up</a></li>
                                                 <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle btn-outline-red" id="languageSelector" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-globe"></i>  English <i class="icofont-thin-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageSelector">

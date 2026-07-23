@@ -16,8 +16,8 @@
                <li class="nav-item"><a target="_self" href="contact.php" class=' nav-link' > Contact </a></li>
             </ul>
             <ul class="navbar-nav ml-auto">
-               <li class="nav-item"><a class="nav-link btn-outline-red mr-lg-2" href="https://users.quantumdigitalcorefin.com/login"><i class="icofont-lock"></i> Sign In</a></li>
-               <li class="nav-item"><a class="nav-link btn-signup mr-lg-2" href="https://users.quantumdigitalcorefin.com/register"><i class="icofont-ui-user"></i> Sign Up</a></li>
+               <li class="nav-item"><a class="nav-link btn-outline-red mr-lg-2" href="https://accounts.quantumdigitalcorefin.com/login"><i class="icofont-lock"></i> Sign In</a></li>
+               <li class="nav-item"><a class="nav-link btn-signup mr-lg-2" href="https://accounts.quantumdigitalcorefin.com/register"><i class="icofont-ui-user"></i> Sign Up</a></li>
                
             </ul>
          </div>

@@ -68,7 +68,7 @@ include('header.php');
 
 					<p class="mb-4 pr-5 text-white">Transfer money within minutes and save money for your future. All of your desired service in single platform.</p>
 					<div class="btn-container">
-						<a href="https://users.quantumdigitalcorefin.com/register" class="btn btn-main-2">Get Started <i class="icofont-simple-right ml-2"></i></a>
+						<a href="https://accounts.quantumdigitalcorefin.com/register" class="btn btn-main-2">Get Started <i class="icofont-simple-right ml-2"></i></a>
 					</div>
 				</div>
 			</div>
@@ -267,7 +267,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$500.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -300,7 +300,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$1,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -333,7 +333,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$20,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main-2 btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -394,7 +394,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$1,890.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -438,7 +438,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$11,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -482,7 +482,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$27,600.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -543,7 +543,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$1,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -586,7 +586,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$100,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
@@ -629,7 +629,7 @@ We have multiple branches to provide different services such as Loan, Wire trans
 								<span>$50,000.00</span>
 							</li>
 						</ul>
-						<a href="https://users.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
+						<a href="https://accounts.quantumdigitalcorefin.com/login" class="btn btn-main btn-block">Apply Now</a>
 					</div>
 				</div>
 			</div>
