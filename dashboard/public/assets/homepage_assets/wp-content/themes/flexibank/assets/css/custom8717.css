@@ -1,0 +1,540 @@
+.admin-bar .fixed-header .sticky-header{
+	top:32px !important;	
+}
+
+.elementor-section .elementor-column-gap-default > .elementor-column > .elementor-element-populated{
+	padding:0px;
+}
+
+/********* Pagination Style *************/
+.pagination,
+.paginate-links{
+	position:relative;
+	gap: 10px;
+	display:flex;
+	align-items: center;
+}
+
+.pagination li a,
+.pagination li > span,
+.paginate-links a,
+.paginate-links > span {
+	position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    border: 1px solid #e6e4e4;
+    text-align: center;
+    font-size: 18px;
+    color: #a8a7a7;
+    font-weight: 700;
+    font-family: var(--title-font);
+    align-items: center;
+    justify-content: center;	
+	text-transform: uppercase;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.pagination li a:hover, 
+.pagination li.active a,
+.pagination li > span,
+.paginate-links a:hover,
+.paginate-links > span {
+    color: #fff;
+    background: var(--theme-color);
+    border-color: var(--theme-color);
+}
+
+
+/***************** Blog Sidebar Style*******************/
+.widget{
+	position: relative;
+	margin-bottom:40px;
+}
+
+.widget:last-child{
+	margin-bottom: 0px;
+}
+
+.widget ul,
+.widget ol{
+	position:relative;
+	display: block;
+	margin:0px;
+	padding:0px;
+}
+
+.widget ul li,
+.widget ol li{
+	position: relative;
+	display:block;
+	margin-bottom: 15px;
+    color: var(--title-color);
+	font-family: var(--title-font);	
+    font-size: 16px;
+    line-height: 26px;
+	padding-left: 19px;
+}
+
+.widget ul li:before,
+.widget ol li:before{
+	position: absolute;
+    content: '';
+    background-image: url(../images/icons/icon-214.png);
+    width: 14px;
+    height: 14px;
+    top: 7px;
+    left: 0px;
+    background-repeat: no-repeat;
+    transition: all 500ms ease;
+	background-size: contain;
+}
+.widget ul li:after,
+.widget ol li:after{
+	position: absolute;
+    content: '';
+    background-image: url(../images/icons/icon-213.png);
+    width: 14px;
+    height: 14px;
+    top: 7px;
+    left: 0px;
+	opacity: 0;
+    background-repeat: no-repeat;
+    transition: all 500ms ease;
+	background-size: contain;
+}
+
+.widget ul li:last-child,
+.widget ol li:last-child{
+	margin-bottom:0px;
+}
+
+.widget ul li ul li,
+.widget ol li ol li{
+	margin-bottom:0px;
+	margin-top:15px;
+}
+.widget ul li ul li:after,
+.widget ol li ol li:after,
+.widget ul li ul li:before,
+.widget ol li ol li:before{
+	top:7px;	
+}
+
+.widget ul li a,
+.widget ol li a{
+	position: relative;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--title-color);
+	font-family: var(--title-font);	
+}
+.widget ul li:hover:before,
+.widget ol li:hover:before{
+	opacity: 0;
+}
+.widget ul li:hover:after,
+.widget ol li:hover:after{
+	opacity: 1;
+}
+.widget ul li a:hover,
+.widget ol li a:hover{
+	color: var(--theme-color)
+}
+
+/******** Tags ************/
+/******** Tags ************/
+/******** Tags ************/
+.widget .tagcloud{
+	position: relative;
+    display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.widget .tagcloud a{	
+	position: relative;
+	display:inline-flex;
+    font-size: 15px !important;
+    line-height: 26px;
+    color: #545151;
+    font-weight: 500;
+    background: #fff;
+    padding: 7px 15px;
+	font-family: var(--title-font);
+}
+.widget .tagcloud a:hover{
+	color: #fff;
+    background: var(--theme-color);
+}
+
+/***************** Service Sidebar Style*******************/
+.service-sidebar-widget {
+	position: relative;
+    margin-bottom: 60px;
+}
+.service-sidebar-widget ul{
+	position: relative;
+    display: block;
+    border: 1px solid #e6e4e4;
+}
+.service-sidebar-widget ul li{
+	position: relative;
+	display: block;
+}
+.service-sidebar-widget ul li:before{
+    position: absolute;
+    content: '';
+    background: #a8a7a7;
+    width: 6px;
+    height: 6px;
+    top: 24px;
+    right: 19px;
+    transition: all 500ms ease;
+}
+.service-sidebar-widget ul li a{
+	position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: var(--title-color);
+    padding: 14px 20px;
+    border-bottom: 1px solid #e6e4e4;
+	font-family: var(--title-font);
+}
+.service-sidebar-widget ul li:last-child a{
+    border-bottom: none;
+}
+.service-sidebar-widget ul li:hover,
+.service-sidebar-widget ul li:hover a,
+.service-sidebar-widget ul li.current-menu-item,
+.service-sidebar-widget ul li.current-menu-item a{
+	background: var(--theme-color);
+    border-color: var(--theme-color);
+    color: #fff;
+}
+.service-sidebar-widget ul li:hover:before,
+.service-sidebar-widget ul li.current-menu-item:before{
+	background: #fff;
+    transform: rotate(45deg);
+	z-index: 1;
+}
+/***************** Footer Widget Style*******************/
+.footer-widget{
+	position:relative;
+	margin-bottom: 40px;
+}
+.footer-widget ul,
+.footer-widget ol{
+	position:relative;
+	margin:0px;
+}
+.footer-widget ul li,
+.footer-widget ol li{
+    display: block;
+    position: relative;   
+	font-size: 17px;
+    line-height: 26px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+.footer-widget ul li:last-child,
+.footer-widget ol li:last-child{
+	margin-bottom:0px;
+}
+.footer-widget ul li ul li,
+.footer-widget ol li ol li{
+	margin-top:10px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+.footer-widget ul li a,
+.footer-widget ol li a{
+    position: relative;
+	font-size: 17px;
+    line-height: 26px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-weight: 400;
+}
+.footer-widget ul li a:hover,
+.footer-widget ol li a:hover{
+	color: var(--title-color);
+}
+/************ custom style *********************/
+.left-sidebar .solution-detail-page-sidebar{
+	margin-right: 20px;
+}
+.right-sidebar .solution-detail-page-sidebar{
+	margin-left: 20px;
+}
+.blog-details-content .content-one .lower-box p{
+	position: relative;
+    display: block;
+    padding-left: 0px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.blog-details-content .content-one .lower-box p a{
+	position: relative;
+    display: inline-block;
+    font-family: var(--text-font);
+    color: #545151;
+}
+.news-block-one .inner-box .content-box .upper-box .title-box h6 a{
+    position: relative;
+    display: block;
+    color: var(--theme-color);
+}
+.news-block-one .inner-box .content-box .upper-box .title-box h6 a:hover{
+    color: var(--theme-color);
+}
+.news-block-one .inner-box .content-box .upper-box .title-box h5 a{
+	text-transform: capitalize;
+}
+.custom-banking .content-box .form-inner .icon-box i,
+.banking-service .tabs-box .tabs-content .content-box ul.list-style-one li i{
+	color: var(--theme-color);
+}
+.tk-home-4 .banking-service .tabs-box .tabs-content .content-box ul.list-style-one li i{
+	color: var(--secondary-color);;
+}
+.flexibank-funfact-section{
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.custom-banking .content-box .inner-box .single-item{
+	padding-right: 0px;
+}
+.custom-banking .content-box .inner-box .form-inner .form-group.message-btn{
+	margin-bottom: 0px;
+}
+.appointment-section .appointment-form.style-two{
+    max-width: 100%;
+}
+/*** 
+
+====================================================================
+			Comment Style
+====================================================================
+
+***/
+.blog-single-page-content .comment-box .flexibank-comment-item .comment{
+    position: relative;
+    display: block;
+    padding-left: 110px;
+    margin-bottom: 27px;
+}
+.blog-single-page-content .comment-box .comment-inner > .flexibank-comment-item:last-child .comment{
+    margin-bottom: 0px;
+}
+.blog-single-page-content .comment-box .comment .thumb-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+}  
+.blog-single-page-content .comment-box .comment .thumb-box img{
+    width: 100%;
+}  
+.blog-single-page-content .comment-box .comment h4.c-title{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 36px;
+    color: #062a26;
+    font-weight: 600;    
+    margin-bottom: 8px;
+}  
+.blog-single-page-content .comment-box .comment h4 span{
+    font-size: 15px;
+    color: var(--thm-primary-color);
+    font-weight: 400;
+} 
+.blog-single-page-content .comment-box .comment .reply-btn{
+    position: relative;
+    display: inline-block;    
+    font-size: 17px;
+    line-height: 26px;
+    color: #062a26;
+    font-weight: 600;
+    transition: all .5s;
+	margin-top: 15px;
+}  
+.blog-single-page-content .comment-box .comment .reply-btn:hover{
+    color: var(--thm-primary-color);
+} 
+.blog-single-page .inner-title a,
+.blog-single-page .inner-title small a{
+	position: relative;
+	display: inline-block;
+	font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.05em;
+	text-transform: capitalize;
+	color: #062a26;
+}
+.blog-single-page .flexibank-comment-item .inner-title small p a:hover,
+.blog-single-page .add-comment-box .logged-in-as p a,
+.blog-single-page .flexibank-comment-item .inner-title small a:hover,
+.blog-single-page .add-comment-box .logged-in-as a{
+	color: var(--thm-primary-color);
+}
+.blog-single-page-content .comment{
+	margin-bottom: 20px;
+}
+.flexibank-comment-item .flexibank-comment-item{
+	margin-left:80px;
+	margin-bottom:27px;	
+}
+.blog-single-page-content .flexibank-comment-item .add-comment-box{
+	margin-top:50px;
+	margin-bottom:60px;	
+}
+.creditcard-section .tabs-content .form-inner .te-icons i{
+    color: rgba(255, 255, 255, 0.50);
+}
+.footer-style-four .widget-section .subscribe-widget .form-inner button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--title-font);
+    background: var(--theme-color);
+    color: #fff !important;
+    text-align: center;
+    padding: 16px 29px 16px 44px;
+    text-transform: capitalize;
+    z-index: 1;
+    transition: all 500ms ease;
+}
+.footer-style-four .widget-section .subscribe-widget .form-inner button i {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transition: all 500ms ease;
+}
+.logged-in-as{
+	margin-bottom: 15px;
+}
+.logged-in-as a{
+	color: var(--theme-color);
+}
+.tk-home-4 .banking-service .content-box .inner-box .inner .theme-btn span {
+	color: var(--title-color);
+}
+.tk-home-4 .banking-service .content-box .inner-box .inner .theme-btn:hover span {
+	color: #ffffff;
+}
+.news-block-one .inner-box .image-box .image,
+.news-block-one .inner-box .image-box .overlay-image{
+	text-align: center;
+}
+
+.flexibank-comment-item .comment {
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.comment-inner > .flexibank-comment-item:last-child .comment{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+blockquote{
+  position: relative;
+  display: block;
+  background: #f5f4f4;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.flexibank-comment-item .comment-form-area {
+	margin-bottom: 50px;
+}
+
+.widget .nice-select,
+.footer-widget .nice-select{
+	float:none;
+	background: #fff;
+	height: 60px;
+	border: 1px #e2e0e0;
+    color: #a8a7a7;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.widget .nice-select:before,
+.footer-widget .nice-select:before{
+	top: 50%;
+	transform: translateY(-50%);
+	right: 20px;
+}
+
+.footer-widget .nice-select{
+	background-color: #fff;
+}
+
+.widget .nice-select ul.list,
+.footer-widget .nice-select ul.list{
+	min-width:100%;
+	border: none;
+}
+
+.widget .nice-select ul li,
+.footer-widget .nice-select ul li{
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+.widget .nice-select ul li:before,
+.footer-widget .nice-select ul li:before{
+	display:none;
+}
+
+.footer-widget .nice-select ul li{
+	color: #003B5A;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.blog-sidebar .widget-title h3 a,
+.footer-widget h3 a{
+	color: inherit;
+}
+
+.header-top .info-list li a,
+.header-style-four .right-column .login-box a{
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header-style-four .right-column .login-box a{
+	color: #67686b;
+}
+
+.pa_30{
+	padding: 15px 30px;
+}

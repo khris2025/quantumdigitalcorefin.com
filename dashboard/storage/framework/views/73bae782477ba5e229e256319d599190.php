@@ -1,0 +1,1 @@
+<?php /**PATH /Users/gibsonjohn/workspace/grant/resources/views/Userview/transactions.blade.php ENDPATH**/ ?>
